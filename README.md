@@ -7,10 +7,10 @@ Welcome to the AP Testing challenge - this is a simple way to see how you write 
 
   - Your basic coding practice
   - Can you consume an endpoint given some credentials
-  - Can you use a web response to do something meaningful.
+  - Can you use a web response to do something meaningful
 
 ### First Step!
-This is your initial setup for the challenge so go ahead do the following:
+This is your initial setup for the challenge so go ahead and do the following:
 
   - Create three files: "index.html", "style.css", "action.js"
   - Link your files together within your basic html document (nothing crazy yet).
