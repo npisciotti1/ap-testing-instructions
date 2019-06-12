@@ -62,6 +62,6 @@ The next challenge builds on what you just did in the last one. This time you'll
 ### To Submit:
 - Upload your three files to a github repo where we can pull it down and run locally.
 - Please make sure you've got some documentation explaining your process and why you did things. Feel free to use jQuery or a similar framework to help you make the GET requests.
-- Log your answers to the console so we can see that you're consuming the endpoint properly. (There should be two differnt answers, one for each challenge. Just log the response of the endpoint)
+- Log your answers to the console so we can see that you're consuming the endpoint properly. (There should be two different answers, one for each challenge. Just log the response of the endpoint)
  
 - GOOD LUCK!
