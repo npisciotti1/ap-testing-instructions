@@ -3,22 +3,21 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-Welcome to the AP Testing challenge - this is a simple way to see how you write code and consume a simple endpoint. This challenge will help us see you demonstrate the following:
+Welcome to the AP Testing challenge - this is a simple way to see how you write code. This challenge will help us see you demonstrate the following:
 
   - Your basic coding practice
-  - Can you consume an endpoint given some credentials
-  - Can you use a web response to do something meaningful
+  - Hit an endpoint given some credentials
+  - Use a web response to do something meaningful
 
 ### First Step!
 This is your initial setup for the challenge so go ahead and do the following:
 
   - Create three files: "index.html", "style.css", "action.js"
   - Link your files together within your basic html document (nothing crazy yet).
-  - We're gonna set this aside for a moment and get to the next part.
 
-### Challenge #1 (AP Secret)
+### Challenge #1 (Basic Auth)
 
-You'll be consuming and creating many endpoints here at Aesthetics Pro, so we'd like to see how you handle getting some data. This challenge will see how you handle credentials when writing a GET request to a given endpoint.
+You'll be using/creating many endpoints here at Aesthetics Pro, so we'd like to see how you handle getting some data. This challenge will see how you handle credentials when writing a GET request to a given endpoint.
 
 -First, within your action.js file, create a function that hits the following endpoint:
 
@@ -33,7 +32,7 @@ Here are your credentials (we hope you use a better password in real life):
 -To best complete this exercise, you need to remember to properly set your request headers (hint hint). The server is expecting this exact username and password from you. The server will only accept a request with headers that have an 'Authorization' property on it in the following format: 
 - `'Basic username:password'`
 
-*Note you have an option here of just using a CLI-based tool to make this request (curl or HTTPIE). If you choose to do so, please document how you went about doing so.
+*Note you have an option here of just using a CLI-based tool to make this request (curl or HTTPIE). If you choose to do so, please document how you did.
 
 If you've gotten the secret, go ahead and document that somewhere or leave the function inside your JS file that logs it to the console, your choice.
 
@@ -55,7 +54,7 @@ The next challenge builds on what you just did in the last one. This time you'll
 - Make sure you create the right quantity of objects specified.
 - Also make sure to size each object (with each respective quantity) as specified.
 
--This shouldn't take very long to create, we just want to see how you style your markup and your basic coding practices.
+-This shouldn't take very long to create, we just want to see how you use javascript to handle web requests and to dynamically generate markup.
 
 *BONUS*: if you so choose, you can show off your wicked-awesome frontend skills by animating or styling the heck out of your 'objects.' Not totally necessary though.
 
